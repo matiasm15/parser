@@ -1,0 +1,28 @@
+
+/* Cadena de prueba para el parser */
+
+entero cont ;
+logico error ;
+entero Pot ( entero x,entero y) { 
+	a = (  ( 647 * g) - t ) + 99 * z ;
+
+
+	Para b desde 1 hasta 9 			/* Otro comentario */
+
+	{ 
+		Si (( b>3 ) Y VERDADERO )entonces 
+		{
+			A ( b ,k );
+
+			/* Otro mas */
+		} 
+	}
+	regresar x ; 
+}
+
+Para b desde ( 2*2) hasta 500- 100 { 
+	Si a O b O FALSO entonces {
+		area = lado * lado + error ;
+		Pot ( area , k ) ;
+	}
+}
