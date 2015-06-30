@@ -6,7 +6,6 @@
 
 	void listarCadena(lista **listaToken, gram *gramatica) {
 		token_t token;
-		int indToken = 1;
 
 		while ((token.indToken = yylex()) != -1) {
 			if (CONST_ENTERA >= token.indToken) {

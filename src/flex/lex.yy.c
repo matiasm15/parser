@@ -433,7 +433,6 @@ char *yytext;
 
 	void listarCadena(lista **listaToken, gram *gramatica) {
 		token_t token;
-		int indToken = 1;
 
 		while ((token.indToken = yylex()) != -1) {
 			if (CONST_ENTERA >= token.indToken) {
@@ -460,7 +459,7 @@ char *yytext;
 		token.indTS = 0;
 		agregarAlFinal(token, listaToken);
 	}
-#line 464 "lex.yy.c"
+#line 463 "lex.yy.c"
 
 /* Macros after this point can all be overridden by user definitions in
  * section 1.
@@ -611,10 +610,10 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 42 "reglas.c"
+#line 41 "reglas.c"
 
 
-#line 618 "lex.yy.c"
+#line 617 "lex.yy.c"
 
 	if ( yy_init )
 		{
@@ -698,182 +697,182 @@ do_action:	/* This label is used only to access EOF actions. */
 			goto yy_find_action;
 
 case 1:
-#line 45 "reglas.c"
+#line 44 "reglas.c"
 case 2:
 YY_RULE_SETUP
-#line 45 "reglas.c"
+#line 44 "reglas.c"
 { }
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 47 "reglas.c"
+#line 46 "reglas.c"
 { return ABRIR_PAR; }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 48 "reglas.c"
+#line 47 "reglas.c"
 { return CERRAR_PAR; }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 49 "reglas.c"
+#line 48 "reglas.c"
 { return ABRIR_LL; }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 50 "reglas.c"
+#line 49 "reglas.c"
 { return CERRAR_LL; }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 51 "reglas.c"
+#line 50 "reglas.c"
 { return SUMA; }
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 52 "reglas.c"
+#line 51 "reglas.c"
 { return MULT; }
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 53 "reglas.c"
+#line 52 "reglas.c"
 { return MENOS; }
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 54 "reglas.c"
+#line 53 "reglas.c"
 { return OR; }
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 55 "reglas.c"
+#line 54 "reglas.c"
 { return AND; }
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 56 "reglas.c"
+#line 55 "reglas.c"
 { return NO; }
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 57 "reglas.c"
+#line 56 "reglas.c"
 { return VERDADERO; }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 58 "reglas.c"
+#line 57 "reglas.c"
 { return FALSO; }
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 59 "reglas.c"
+#line 58 "reglas.c"
 { return PARA; }
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 60 "reglas.c"
+#line 59 "reglas.c"
 { return DESDE; }
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 61 "reglas.c"
+#line 60 "reglas.c"
 { return HASTA; }
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 62 "reglas.c"
+#line 61 "reglas.c"
 { return SI; }
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 63 "reglas.c"
+#line 62 "reglas.c"
 { return ENTONCES; }
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 64 "reglas.c"
+#line 63 "reglas.c"
 { return ASIGN; }
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 65 "reglas.c"
+#line 64 "reglas.c"
 { return IGUAL; }
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 66 "reglas.c"
+#line 65 "reglas.c"
 { return MENOR; }
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 67 "reglas.c"
+#line 66 "reglas.c"
 { return MAYOR; }
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 68 "reglas.c"
+#line 67 "reglas.c"
 { return MENOR_IGUAL; }
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
-#line 69 "reglas.c"
+#line 68 "reglas.c"
 { return MAYOR_IGUAL; }
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
-#line 70 "reglas.c"
+#line 69 "reglas.c"
 { return COMA; }
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
-#line 71 "reglas.c"
+#line 70 "reglas.c"
 { return PUNTO_COMA; }
 	YY_BREAK
 case 28:
 YY_RULE_SETUP
-#line 72 "reglas.c"
+#line 71 "reglas.c"
 { return ENTERO; }
 	YY_BREAK
 case 29:
 YY_RULE_SETUP
-#line 73 "reglas.c"
+#line 72 "reglas.c"
 { return LOGICO; }
 	YY_BREAK
 case 30:
 YY_RULE_SETUP
-#line 74 "reglas.c"
+#line 73 "reglas.c"
 { return REGRESAR; }
 	YY_BREAK
 case 31:
 YY_RULE_SETUP
-#line 76 "reglas.c"
+#line 75 "reglas.c"
 { return CONST_ENTERA; }
 	YY_BREAK
 case 32:
 YY_RULE_SETUP
-#line 77 "reglas.c"
+#line 76 "reglas.c"
 { return ID_VARIABLE; }
 	YY_BREAK
 case 33:
 YY_RULE_SETUP
-#line 78 "reglas.c"
+#line 77 "reglas.c"
 { return ID_FUNCION; }    
 	YY_BREAK
 case YY_STATE_EOF(INITIAL):
-#line 80 "reglas.c"
+#line 79 "reglas.c"
 { return -1; }
 	YY_BREAK
 case 34:
 YY_RULE_SETUP
-#line 82 "reglas.c"
+#line 81 "reglas.c"
 { return ERROR; }
 	YY_BREAK
 case 35:
 YY_RULE_SETUP
-#line 83 "reglas.c"
+#line 82 "reglas.c"
 ECHO;
 	YY_BREAK
-#line 877 "lex.yy.c"
+#line 876 "lex.yy.c"
 
 	case YY_END_OF_BUFFER:
 		{
@@ -1757,4 +1756,4 @@ int main()
 	return 0;
 	}
 #endif
-#line 83 "reglas.c"
+#line 82 "reglas.c"
